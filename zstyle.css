@@ -242,16 +242,16 @@ body {
 
 @keyframes fondu {
   0% {
-    background-image: url(https://image.noelshack.com/fichiers/2022/36/4/1662627201-m.jpg);
+    background-image: url(https://image.noelshack.com/fichiers/2022/43/4/1666905728-max.jpg);
   }
   33.33% {
-    background-image: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/208942714_858968308159572_8749652793884582389_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=44gMrJL17mcAX_O3MTq&tn=3Kd-0GtSuagc4KZ8&_nc_ht=scontent-cdg2-1.xx&oh=00_AT9-Hwv8Aq3NZyMcTIMw5lHQTOM71c01mLJJUfP9X8bY_Q&oe=633FAF4F);
+    background-image: url(https://image.noelshack.com/fichiers/2022/43/4/1666905699-m.jpg);
   }
   66.67% {
-    background-image: url(https://image.noelshack.com/fichiers/2022/36/4/1662627201-m.jpg);
+    background-image: url(https://image.noelshack.com/fichiers/2022/43/4/1666905699-m.jpg);
   }
   100% {
-    background-image: url(https://scontent-cdg2-1.xx.fbcdn.net/v/t1.6435-9/208942714_858968308159572_8749652793884582389_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=44gMrJL17mcAX_O3MTq&tn=3Kd-0GtSuagc4KZ8&_nc_ht=scontent-cdg2-1.xx&oh=00_AT9-Hwv8Aq3NZyMcTIMw5lHQTOM71c01mLJJUfP9X8bY_Q&oe=633FAF4F);
+    background-image: url(https://image.noelshack.com/fichiers/2022/43/4/1666905728-max.jpg);
   }
 }
 .d1:hover,
