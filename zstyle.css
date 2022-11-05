@@ -289,7 +289,7 @@ body {
 @media (max-width: 770px) {
   .bl {
     margin-top: -400px;
-    height: 400px;
+    height: -400px;
   }
 }
 @media (max-width: 415px) {
@@ -315,7 +315,7 @@ body {
 }
 @media (max-width: 1025px) {
   .diva {
-    margin-top: -120%;
+    margin-top: -126%;
   }
 }
 @media (max-width: 770px) {
@@ -326,7 +326,7 @@ body {
 }
 @media (max-width: 430px) {
   .diva {
-    margin-top: -222%;
+    margin-top: -255%;
     height: 430px;
   }
 }
@@ -345,13 +345,14 @@ body {
 }
 @media (max-width: 330px) {
   .diva {
-    margin-top: -262%;
+    margin-top: -277%;
   }
 }
 
 h1 {
   font-size: 60px;
 }
+
 .divb {
   margin: 0px 50px 0px 50px;
   text-align: center;
@@ -360,6 +361,11 @@ h1 {
 .bp {
   margin: 0;
 }
+@media (max-width: 430px) {
+  .bp {
+    margin: -30px 0 0 0;
+  }
+}
 @media (max-width: 380px) {
   .bp {
     margin: 180px 0 0 0;
@@ -367,7 +373,7 @@ h1 {
 }
 @media (max-width: 330px) {
   .bp {
-    margin: 100px 0 0 0;
+    margin: 70px 0 0 0;
   }
 }
 #container {
@@ -431,7 +437,7 @@ h1 {
 @media (max-width: 800px) {
   #container {
     width: 92%;
-    margin-top: 60px;
+    margin-top: 220px;
     margin-left: 4%;
   }
   #left {
@@ -489,7 +495,7 @@ h1 {
 @media (max-width: 340px) {
   .sousdivp {
     display: inline-block;
-    margin: 0px 20px 0px 10px;
+    margin: 0px 20px 0px -20px;
   }
 }
 .aul {
@@ -1052,7 +1058,7 @@ h2 {
   padding: 8% 6% 8% 6%;
   margin-top: 30px;
   margin-bottom: 500px;
-  background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163347_960_720.png)
+  background: url(https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png)
     rgba(24, 3, 98, 0.644) no-repeat center/cover;
   background-blend-mode: multiply;
   border: 1px solid rgb(252, 250, 250);
