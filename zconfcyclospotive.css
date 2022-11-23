@@ -507,29 +507,21 @@ h2{
     padding: 20px 0 0 0;
 }
 /* ***************************************************nos formules************************************** */
-.pzpz{
-    margin-top: -14px;
-    margin-left: 40%;
-    margin-right: 40%;
-    text-align: center;
-    background: white;
-    text-transform: uppercase;
-    color: blue;
-    font-size: 20px;
-    
+.pzpz {
+  margin-top: -14px;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  background: white;
+  text-transform: uppercase;
+  color: blue;
+  font-size: 20px;
 }
-@media (max-width: 650px){
-    .pzpz{
-        margin-top: -14px;
-        margin-left: 20%;
-        margin-right: 20%;
-        text-align: center;
-        background: white;
-        text-transform: uppercase;
-        color: blue;
-        font-size: 20px;
-        
-    }
+@media (max-width: 650px) {
+  .pzpz {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 /* ******************************************************flexbox***************************************** */
 /* ****************************************************************************************************** */
@@ -778,7 +770,7 @@ h2{
 }
 .luluu {
   list-style-type: none;
-  padding: 8% 7% 8% 7%;
+  padding: 8% 5% 8% 5%;
   margin-top: 30px;
   margin-bottom: 500px;
   background: url(https://cdn.pixabay.com/photo/2017/03/21/21/06/medal-2163351_960_720.png)
@@ -793,12 +785,12 @@ h2{
 
 @media (max-width: 1120px) {
   .luluu {
-    padding: 8% 6% 10% 6%;
+    padding: 8% 4% 11% 4%;
   }
 }
 @media (max-width: 970px) {
   .luluu {
-    padding: 8% 8% 12% 8%;
+    padding: 8% 4% 12% 4%;
   }
 }
 @media (max-width: 890px) {
@@ -811,6 +803,7 @@ h2{
     padding: 8% 3% 18% 3%;
   }
 }
+
 @media (max-width: 680px) {
   .lilii {
     display: flex;
@@ -824,7 +817,7 @@ h2{
 
   .luluu {
     padding: 8% 11% 8% 11%;
-    margin-top: -00px;
+    margin-top: 00px;
     margin-bottom: 20px;
   }
 }
@@ -850,7 +843,7 @@ h2{
 
 .luluua {
   list-style-type: none;
-  padding: 8% 7% 8% 7%;
+  padding: 8% 5% 8% 5%;
   margin-top: 30px;
   margin-bottom: 500px;
   background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163349_960_720.png)
@@ -865,12 +858,12 @@ h2{
 
 @media (max-width: 1120px) {
   .luluua {
-    padding: 8% 7% 10% 7%;
+    padding: 8% 4.5% 11% 4.5%;
   }
 }
 @media (max-width: 970px) {
   .luluua {
-    padding: 8% 6% 12% 6%;
+    padding: 8% 4.5% 12% 4.5%;
   }
 }
 @media (max-width: 890px) {
@@ -906,7 +899,7 @@ h2{
 
 .luluub {
   list-style-type: none;
-  padding: 8%;
+  padding: 8% 6.5% 8% 6.5%;
   margin-top: 30px;
   margin-bottom: 500px;
   background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163347_960_720.png)
@@ -921,12 +914,12 @@ h2{
 
 @media (max-width: 1120px) {
   .luluub {
-    padding: 8% 8% 10% 8%;
+    padding: 8% 6.5% 11% 6.5%;
   }
 }
 @media (max-width: 970px) {
   .luluub {
-    padding: 8% 8% 12% 8%;
+    padding: 8% 6% 12% 6%;
   }
 }
 @media (max-width: 890px) {
@@ -947,9 +940,78 @@ h2{
     align-items: center;
     align-content: stretch;
     padding-inline-start: 0px;
-    height: 670px;
+    height: 70px;
   }
   .luluub {
+    padding: 8% 19% 8% 19%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .lilii {
+    display: flex;
+    flex-direction: column;
+    background: cadetblue;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding-inline-start: 0px;
+    width: 100%;
+  }
+}
+/* ************************************************************************************************* */
+/* **************************************************************************************************** */
+/* ***************************************************************************************************** */
+/* ***************************************************************************************************** */
+
+.luluuc {
+  list-style-type: none;
+  padding: 8% 6% 8% 6%;
+  margin-top: 30px;
+  margin-bottom: 500px;
+  background: url(https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png)
+    rgba(24, 3, 98, 0.644) no-repeat center/cover;
+  background-blend-mode: multiply;
+  border: 1px solid rgb(252, 250, 250);
+  box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+@media (max-width: 1120px) {
+  .luluuc {
+    padding: 8% 5.5% 11% 5.5%;
+  }
+}
+@media (max-width: 970px) {
+  .luluuc {
+    padding: 8% 5% 12% 5%;
+  }
+}
+@media (max-width: 890px) {
+  .luluuc {
+    padding: 8% 7% 15% 7%;
+  }
+}
+@media (max-width: 770px) {
+  .luluuc {
+    padding: 8% 6% 18% 6%;
+  }
+}
+@media (max-width: 680px) {
+  .lilii {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    padding-inline-start: 0px;
+    height: 970px;
+  }
+  .luluuc {
     padding: 8% 19% 8% 19%;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -958,7 +1020,7 @@ h2{
 @media (max-width: 520px) {
   .lilii {
     width: 100%;
-    height: 600px;
+    height: 800px;
   }
 }
 @media (max-width: 470px) {
@@ -973,7 +1035,9 @@ h2{
     width: 100%;
   }
 }
-/* ************************************************************************************************* */
+
+
+/* ********************************************************************************************************* */
 .trezay {
   background: transparent;
   text-transform: uppercase;
@@ -993,6 +1057,7 @@ h2{
   text-transform: none;
   font-weight: 100;
 }
+
 #container {
     width:80%;
     text-align:center;
