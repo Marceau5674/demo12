@@ -288,14 +288,25 @@
     height: 40px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
     border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
   }
-
+  @media (max-width: 1025px) {
+    .ddrty{
+      width: 0px; /* remplacez 40px par la largeur souhaitée pour votre logo */
+    height: 0px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
+    border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
+    }
+  }
 .g{
   margin-top: -180px;
+}
+@media (max-width: 1025px){
+  .g{
+    margin-top: -100px;
+  }
 }
   .logoo {
     position: static;
     top: 50px;
-    margin-left: 20px;
+    margin-left: -65%;
     display: inline-block;
     vertical-align: middle;
     width: 220px;
@@ -1231,7 +1242,34 @@
   
   @media (max-width: 1200px) {
     .logoo {
+      margin-left: -85%;
+      
+    }
+  }
+  @media (max-width: 426px) {
+    .logoo {
       margin-left: -20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    }
+  }
+  @media (max-width: 376px) {
+    .logoo {
+      margin-left: -20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    }
+  }
+  @media (max-width: 346px) {
+    .logoo {
+      margin-left: -20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      height: 150px;
+      width: 180px;
+      
     }
   }
   @media (min-width: 1200px) {
