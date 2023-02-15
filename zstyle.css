@@ -258,12 +258,15 @@
   @keyframes fondu {
     0% {
       background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027332-m.jpg) ; 
+
     }
     33.33% {
-      background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027344-max.jpg);
+      background-image: url(https://image.noelshack.com/fichiers/2023/06/1/1675706333-enzo.jpg
+      );
     }
     66.67% {
-      background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027344-max.jpg);
+      background-image: url(https://image.noelshack.com/fichiers/2023/06/1/1675706333-enzo.jpg
+      );
     }
     100% {
       background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027332-m.jpg);
@@ -314,7 +317,38 @@
     font-size: 0;
     line-height: 0;
   }
-
+  @media (max-width: 1200px) {
+    .logoo {
+      margin-left: -85%;
+      
+    }
+  }
+  @media (max-width: 426px) {
+    .logoo {
+      margin-left: -20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    }
+  }
+  @media (max-width: 376px) {
+    .logoo {
+      margin-left: -20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+    }
+  }
+  @media (max-width: 346px) {
+    .logoo {
+      margin-left: -20px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      height: 150px;
+      width: 180px;
+      
+    }
+  }
 
 
 
@@ -341,8 +375,8 @@
   }
   @media (max-width: 415px) {
     .bl {
-      margin-top: -400px;
-      height: 400px;
+      margin-top: -440px;
+      height: 440px;
     }
   }
   @media (max-width: 380px) {
@@ -356,7 +390,7 @@
     margin-top: -100%;
     padding: 110px 30px 50px 30px;
     text-decoration: none;
-    background: rgba(225, 225, 233, 0.178);
+    
     background-blend-mode: multiply;
     height: 470px;
   }
@@ -380,7 +414,7 @@
   @media (max-width: 415px) {
     .diva {
       margin-top: -242%;
-      height: 430px;
+      height: 440px;
     }
   }
   @media (max-width: 380px) {
@@ -517,6 +551,16 @@
     }
   }
   @media (max-width: 471px) {
+    #container {
+      margin-top: 45px;
+    }
+  }
+  @media (max-width: 416px) {
+    #container {
+      margin-top: 70px;
+    }
+  }
+  @media (max-width: 400px) {
     #container {
       margin-top: 45px;
     }
@@ -1240,38 +1284,7 @@
     }
   }
   
-  @media (max-width: 1200px) {
-    .logoo {
-      margin-left: -85%;
-      
-    }
-  }
-  @media (max-width: 426px) {
-    .logoo {
-      margin-left: -20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      
-    }
-  }
-  @media (max-width: 376px) {
-    .logoo {
-      margin-left: -20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      
-    }
-  }
-  @media (max-width: 346px) {
-    .logoo {
-      margin-left: -20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      height: 150px;
-      width: 180px;
-      
-    }
-  }
+ 
   @media (min-width: 1200px) {
     #icoOpen {
       display: none/hidden;

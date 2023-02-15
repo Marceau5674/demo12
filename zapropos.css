@@ -200,7 +200,7 @@ body {
 .diva{
     padding: 90px 30px 50px 30px;
     text-decoration: none;
-    background: url(https://cdn.pixabay.com/photo/2012/04/18/19/01/check-37583_960_720.png) rgb(135, 148, 147) center/cover;
+    background: url(https://cdn.pixabay.com/photo/2012/04/18/19/01/check-37583_960_720.png)  rgb(205, 216, 215) center/cover;
     background-blend-mode: multiply;
     height: 450px;
 }
