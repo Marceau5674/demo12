@@ -194,7 +194,7 @@
     height: 100%;
     width: 100%;
     padding-top: 90%;
-    margin: 0px auto;
+    margin: 0px 0 0 0 ;
     background-color: #ededed;
     background-size: contain;
     animation: fondu 30s ease-in-out infinite both;
@@ -307,7 +307,8 @@
   }
 }
   .logoo {
-    position: static;
+    display: none/hidden;
+      visibility: hidden;
     top: 50px;
     margin-left: -65%;
     display: inline-block;
@@ -315,6 +316,18 @@
     width: 220px;
     height: 180px;
     font-size: 0;
+    line-height: 0;
+  }
+  .logooo {
+    
+   
+    margin-left: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 220px;
+    height: 180px;
+    font-size: 0;
+    margin-top: 30px;
     line-height: 0;
   }
   @media (max-width: 1200px) {
@@ -384,6 +397,13 @@
       margin-top: -500px;
       height: 500px;
     }
+  }
+  .band{
+    height: 210px;
+    width: 100%;
+    background-color: #11141b;
+    
+    margin-top: 0px;
   }
   
   .diva {
