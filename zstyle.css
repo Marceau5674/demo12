@@ -64,7 +64,7 @@
   }
   @media (max-width:500px){
   .header a:hover {
-    text-decoration: underline rgb(30, 30, 143);
+    text-decoration: underline rgb(202, 219, 46);
     transition: 0, 3s;
   }}
   .li {
@@ -126,6 +126,8 @@
     background-color: #ffffff;
     overflow: hidden;
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
+
   }
   
   /* Style the links inside the navigation bar */
@@ -142,7 +144,7 @@
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #a798cf;
+    background-color: #e4ac35;
     color: rgb(8, 8, 8);
     transition: 0.8s;
   }
@@ -277,50 +279,24 @@
     animation-play-state: paused;
   }
 
-
-
-.ddrt {
+  .ddr{
    
-    padding-left:90%;
-    right: 20px; /* distance par rapport au bord droit */
-    bottom: 20px; /* distance par rapport au bas de la page */
+   margin: 40px;
+   text-decoration: none;
   }
-  
   .ddrty {
     width: 40px; /* remplacez 40px par la largeur souhaitée pour votre logo */
     height: 40px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
     border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
   }
-  @media (max-width: 1025px) {
-    .ddrty{
-      width: 0px; /* remplacez 40px par la largeur souhaitée pour votre logo */
-    height: 0px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
-    border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
-    }
-  }
-.g{
-  margin-top: -180px;
+.w{
+  margin-top: -120px;
+  
+ padding-left: 45%;
 }
-@media (max-width: 1025px){
-  .g{
-    margin-top: -100px;
-  }
-}
-  .logoo {
-    display: none/hidden;
-      visibility: hidden;
-    top: 50px;
-    margin-left: -65%;
-    display: inline-block;
-    vertical-align: middle;
-    width: 220px;
-    height: 180px;
-    font-size: 0;
-    line-height: 0;
-  }
+  
+  
   .logooo {
-    
-   
     margin-left: 20%;
     display: inline-block;
     vertical-align: middle;
@@ -329,43 +305,9 @@
     font-size: 0;
     margin-top: 30px;
     line-height: 0;
+    border-radius: 10px;
   }
-  @media (max-width: 1200px) {
-    .logoo {
-      margin-left: -85%;
-      
-    }
-  }
-  @media (max-width: 426px) {
-    .logoo {
-      margin-left: -20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      
-    }
-  }
-  @media (max-width: 376px) {
-    .logoo {
-      margin-left: -20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      
-    }
-  }
-  @media (max-width: 346px) {
-    .logoo {
-      margin-left: -20px;
-      margin-top: 50px;
-      margin-bottom: 50px;
-      height: 150px;
-      width: 180px;
-      
-    }
-  }
-
-
-
-
+  
   
   .bl {
     height: 510px;
@@ -399,9 +341,9 @@
     }
   }
   .band{
-    height: 210px;
+    height: 170px;
     width: 100%;
-    background-color: #11141b;
+    background-color: #000000;
     
     margin-top: 0px;
   }
@@ -480,7 +422,7 @@
   #container {
     width: 80%;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 380px;
     margin-left: 10%;
   }
   
@@ -726,7 +668,7 @@
     display: flex;
     justify-content: space-around;
     padding-inline-start: 0px;
-    background: cadetblue;
+    background-color: #e4ac35;
     width: 100%;
     height: 280px;
   }
@@ -949,7 +891,7 @@
     display: flex;
     justify-content: space-around;
     padding-inline-start: 0px;
-    background: cadetblue;
+    background-color: #e4ac35;
     width: 100%;
     height: 280px;
   }
@@ -962,7 +904,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/06/medal-2163351_960_720.png)
-      rgba(24, 3, 98, 0.644) no-repeat center/cover;
+      rgba(98, 96, 3, 0.644) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
