@@ -1191,7 +1191,7 @@
   /* **************************************footer**************************************************************** */
   .footer {
     padding: 27px 0 20px;
-    background: #333;
+    background: #000000;
     text-align: center;
     color: #fff;
     text-decoration: none;
@@ -1207,14 +1207,14 @@
     display: inline-block;
     margin: 0px 20px 0px 20px;
     text-decoration: none;
-    background: #333;
+    background: #000000;
   }
   .aula {
     display: inline-block;
     text-decoration: none;
     padding-top: 20px;
     margin-left: 76px;
-    background: #333;
+    background: #000000;
   }
   @media (max-width: 600px) {
     .aula {
