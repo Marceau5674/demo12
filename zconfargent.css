@@ -132,6 +132,7 @@ body {
 .topnav {
     background-color: #f1f1f1;
     overflow: hidden;
+    border-top: 2px solid black;
     border-bottom: 2px solid black;
 }
  

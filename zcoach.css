@@ -133,6 +133,7 @@ body {
     background-color: #f1f1f1;
     overflow: hidden;
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
  
 /* Style the links inside the navigation bar */
@@ -200,7 +201,7 @@ body {
 .diva{
     padding: 90px 30px 50px 30px;
     text-decoration: none;
-    background: url(https://imgs.search.brave.com/u3jlephLuJacyUj5DfDDR93Vi3bBm-fXwYGh29E3lsA/rs:fit:626:417:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS9waG90b3MtZ3Jh/dHVpdGUvcGFubmVh/dS1zaWduYWxpc2F0/aW9uLXZlbG8tYmxh/bmMtZGVzc2luZS1y/b3V0ZV8xNTEwMTMt/MTQ2NzkuanBn) rgb(198, 207, 207) center/cover;
+    background: url(https://zupimages.net/up/23/07/ekjp.jpg) rgb(198, 207, 207) center/cover;
     background-blend-mode: multiply;
     height: 450px;
 }
@@ -265,7 +266,53 @@ h1{
     position: repeat center/cover;
     width: 100%;
 }
-
+.rib{
+  width: 33%;
+   font-size: 20px;
+     line-height: 1.25;
+     text-align: center;
+     position: static;
+     padding: 15px;
+     background-color: #7e7a7a;
+     border-radius: 4px;
+     border: 2px solid rgb(255, 247, 247);
+     color: rgb(3, 0, 0);
+     text-transform: uppercase;
+     margin: 280px 0 0  0 ;
+}
+.band{
+  height: 170px;
+  width: 100%;
+  background-color: #000000;
+  
+  margin-top: 0px;
+}
+.logooo {
+  margin-left: 20%;
+  display: inline-block;
+  vertical-align: middle;
+  width: 220px;
+  height: 180px;
+  font-size: 0;
+  margin-top: 30px;
+  line-height: 0;
+  border-radius: 10px;
+}
+.ddr{
+   
+  margin: 40px;
+  text-decoration: none;
+ }
+ .ddrty {
+   width: 40px; /* remplacez 40px par la largeur souhaitée pour votre logo */
+   height: 40px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
+   border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
+ }
+.w{
+ margin-top: -120px;
+ 
+padding-left: 45%;
+}
 .tem{
     margin-left: 15%;
     margin-top: 30px;

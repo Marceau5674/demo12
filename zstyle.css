@@ -136,7 +136,7 @@
     display: block;
     justify-content: center;
     text-align: center;
-    padding: 14px 16px 15px 5px;
+    padding: 7px 16px 7px 10px;
     text-decoration: none;
     font-size: 17px;
     z-index: 2;
@@ -283,7 +283,9 @@
    
    margin: 40px;
    text-decoration: none;
+
   }
+
   .ddrty {
     width: 40px; /* remplacez 40px par la largeur souhaitée pour votre logo */
     height: 40px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
@@ -293,6 +295,14 @@
   margin-top: -120px;
   
  padding-left: 45%;
+}
+@media (max-width: 800px){
+  .ddr{
+   
+    margin: 30px;
+    text-decoration: none;
+ 
+   }
 }
   
   
@@ -307,6 +317,12 @@
     line-height: 0;
     border-radius: 10px;
   }
+  
+@media (max-width: 800px){
+  .logooo{
+    margin-left: 13%;
+  }
+}
   
   
   .bl {
@@ -359,11 +375,14 @@
   @media (max-width: 1025px) {
     .diva {
       margin-top: -126%;
+      padding: 550px 30px 50px 30px;
+      height: 140px;
     }
   }
   @media (max-width: 770px) {
     .diva {
       margin-top: -135%;
+      padding: 500px 30px 50px 30px;
       height: 380px;
     }
   }
@@ -419,10 +438,32 @@
       margin: 70px 0 0 0;
     }
   }
+.rib{
+ width: 33%;
+  font-size: 20px;
+    line-height: 1.25;
+    text-align: center;
+    position: static;
+    padding: 15px;
+    background-color: #7e7a7a;
+    border-radius: 4px;
+    border: 2px solid rgb(255, 247, 247);
+    color: rgb(3, 0, 0);
+    text-transform: uppercase;
+    margin: 280px 0 0  0 ;
+    
+}
+@media (max-width:1025px){
+  .rib{
+    margin: -100px 0 0  0 ;
+  }
+}
+
+
   #container {
     width: 80%;
     text-align: center;
-    margin-top: 380px;
+    margin-top: 20px;
     margin-left: 10%;
   }
   
@@ -480,7 +521,7 @@
   @media (max-width: 800px) {
     #container {
       width: 92%;
-      margin-top: 220px;
+      margin-top: 60px;
       margin-left: 4%;
     }
     #left {
@@ -572,7 +613,7 @@
   }
   @media (max-width: 800px) {
     .containeura {
-      margin-top: 60px;
+      margin-top: -400px;
     }
   }
   #formules {
@@ -644,7 +685,7 @@
     text-align: center;
     background: white;
     text-transform: uppercase;
-    color: blue;
+    color: rgb(125, 125, 128);
     font-size: 20px;
   }
   @media (max-width: 650px) {
@@ -681,7 +722,7 @@
     margin-top: 30px;
     margin-bottom: 300px;
     background: url(https://imgs.search.brave.com/6BOhjm3snWOSLwRvMWZhow_yNwUJsWm9LzW_KUrLIHI/rs:fit:626:417:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS9waG90b3MtZ3Jh/dHVpdGUvdmVsby1j/eWNsaXN0ZS1ob21t/ZS12ZWxvLXZlbG8t/YXRobGV0ZS1yZW1p/c2UtZm9ybWUtc3Bv/cnRzLXZlbG8tcm91/dGUtb3V2ZXJ0ZV8z/MzgzNS00MzEuanBn)
-      rgba(30, 6, 117, 0.644) no-repeat center/cover;
+    rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -747,7 +788,7 @@
     margin-top: 30px;
     margin-bottom: 300px;
     background: url(https://imgs.search.brave.com/7vYr6pogcfC-mzLY96UumZ6h3EACE_DK4LgnIUr6omw/rs:fit:1200:801:1/g:ce/aHR0cHM6Ly9iaWtl/Y2kuY29tL2ZyL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIwLzA5/L2RlYnV0YW50LXZl/bG8tcm91dGUtMTIw/MHg4MDEuanBn)
-      rgba(30, 6, 117, 0.753) no-repeat center/cover;
+    rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -807,7 +848,7 @@
     padding: 8% 4.5% 8% 5%;
     margin-top: 30px;
     margin-bottom: 300px;
-    background: url(https://imgs.search.brave.com/Tn7dmvncbGGMQHo4AucKNms1V9KDle_NQcSw1aGDvsA/rs:fit:1200:1065:1/g:ce/aHR0cHM6Ly9jZG4t/cy13d3cuZXN0cmVw/dWJsaWNhaW4uZnIv/aW1hZ2VzL0ZBODU5/MTU1LUY2MDctNDg4/Qy05QTM4LUMzOUM4/MzEzQjU1Qy9OV19y/YXcvY3ljbGlzbWUt/MWVyZS1lZGl0aW9u/LWRlLWwtaWRqb3Ut/Y3ljbG9zcG9ydGl2/ZS1uZXV2ZXMtbWFp/c29ucy1kaW1hbmNo/ZS0xMy1zZXB0ZW1i/cmUtMjAyMC1waG90/by1lcmljLWR1Ym9p/cy0xNTk5OTk1NDIw/LmpwZw) rgba(30, 6, 117, 0.719) no-repeat center/cover;
+    background: url(https://imgs.search.brave.com/Tn7dmvncbGGMQHo4AucKNms1V9KDle_NQcSw1aGDvsA/rs:fit:1200:1065:1/g:ce/aHR0cHM6Ly9jZG4t/cy13d3cuZXN0cmVw/dWJsaWNhaW4uZnIv/aW1hZ2VzL0ZBODU5/MTU1LUY2MDctNDg4/Qy05QTM4LUMzOUM4/MzEzQjU1Qy9OV19y/YXcvY3ljbGlzbWUt/MWVyZS1lZGl0aW9u/LWRlLWwtaWRqb3Ut/Y3ljbG9zcG9ydGl2/ZS1uZXV2ZXMtbWFp/c29ucy1kaW1hbmNo/ZS0xMy1zZXB0ZW1i/cmUtMjAyMC1waG90/by1lcmljLWR1Ym9p/cy0xNTk5OTk1NDIw/LmpwZw)   rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -904,7 +945,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/06/medal-2163351_960_720.png)
-      rgba(98, 96, 3, 0.644) no-repeat center/cover;
+      rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -977,7 +1018,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163349_960_720.png)
-      rgba(30, 6, 117, 0.644) no-repeat center/cover;
+    rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1033,7 +1074,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163347_960_720.png)
-      rgba(24, 3, 98, 0.644) no-repeat center/cover;
+    rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1083,7 +1124,7 @@
     .lilii {
       display: flex;
       flex-direction: column;
-      background: cadetblue;
+      background-color: #e4ac35;
       justify-content: center;
       align-items: center;
       align-content: stretch;
@@ -1102,7 +1143,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png)
-      rgba(24, 3, 98, 0.644) no-repeat center/cover;
+    rgba(136, 134, 4, 0.432) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1157,7 +1198,7 @@
     .lilii {
       display: flex;
       flex-direction: column;
-      background: cadetblue;
+      background-color: #e4ac35;
       justify-content: center;
       align-items: center;
       align-content: stretch;
@@ -1222,12 +1263,13 @@
       margin-left: 0px;
       text-decoration: none;
       padding-top: 20px;
-      background: #333;
+      background: #000000;
     }
   }
   .PP {
     color: white;
     text-decoration: none;
+    
   }
   .PPP {
     margin: 20px 0px 0px 0px;

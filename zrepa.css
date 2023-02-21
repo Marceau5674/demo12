@@ -132,6 +132,7 @@ body {
     background-color: #f1f1f1;
     overflow: hidden;
     border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
  
 /* Style the links inside the navigation bar */
