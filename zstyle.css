@@ -141,9 +141,9 @@
     font-size: 17px;
     z-index: 2;
   }
-  @media (max-width:1000px){
+  @media (max-width:1200px){
     .topnav a {
-      padding: 7px 16px 7px 10px;
+      padding: 8px 16px 7px 10px;
     }
   }
   
@@ -221,34 +221,18 @@
       padding: 129% 0 0 0;
     }
   }
-  @media (max-width: 430px) {
+  @media (max-width: 450px) {
     .d2 {
-      padding: 219% 0 0 0;
+      padding: 500px 0 0 0; 
+      height: 450px; 
+      width: 100%;
+      margin-left: -0px; 
+    }
+  }
   
-      width: 151%;
-      margin-left: -217px;
-    }
-  }
-  @media (max-width: 415px) {
+  @media (max-width: 330x) {
     .d2 {
-    
-      padding: 235% 0 0 0;
-  
-      width: 150%;
-      margin-left: -215px;
-    }
-  }
-  @media (max-width: 380px) {
-    .d2 {
-      padding: 250% 0 0 0;
-      width: 158%;
-      margin-left: -218px;
-    }
-  }
-  @media (max-width: 325px) {
-    .d2 {
-      padding: 270% 0 0 0;
-      width: 168%;
+  height: 400px;  
     }
   }
   
@@ -261,7 +245,6 @@
       margin: 0px 0 0 0;
     }
   }
-  
   
   @keyframes fondu {
     0% {
@@ -280,6 +263,25 @@
       background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027332-m.jpg);
     }
   }
+  @media (max-width:450px){
+    @keyframes fondu {
+      0% {
+        background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027332-m.jpg) ; 
+  
+      }
+      33.33% {
+        background-image: url(https://image.noelshack.com/fichiers/2023/06/1/1675706333-enzo.jpg
+        );
+      }
+      66.67% {
+        background-image: url(https://zupimages.net/up/23/08/v8kq.jpg
+        );
+      }
+      100% {
+        background-image: url(https://image.noelshack.com/fichiers/2023/04/7/1675027332-m.jpg);
+      }
+    }
+  }
   .d1:hover,
   .d2:hover {
     animation-play-state: paused;
@@ -291,7 +293,13 @@
    text-decoration: none;
 
   }
-
+  .band{
+    height: 170px;
+    width: 100%;
+    background-color: #000000;
+    
+    margin-top: 0px;
+  }
   .ddrty {
     width: 40px; /* remplacez 40px par la largeur souhaitée pour votre logo */
     height: 40px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
@@ -341,6 +349,11 @@
     margin-left: 23%;
   }
 }
+@media (max-width: 360px){
+  .logooo{
+    margin-left: 15%;
+  }
+}
 .rib{
   width: 33%;
    font-size: 20px;
@@ -367,10 +380,10 @@
     margin: -50px  0 0  0 ;
   }
 }
-@media (max-width:450px){
+@media (max-width:380px){
   .rib{
     width: 90%;
-    margin: -50px  0 0  0 ;
+    margin: -200px  0 0  0 ;
   }
 }
   
@@ -405,13 +418,7 @@
       height: 500px;
     }
   }
-  .band{
-    height: 170px;
-    width: 100%;
-    background-color: #000000;
-    
-    margin-top: 0px;
-  }
+  
   
   .diva {
     margin-top: -100%;
@@ -435,28 +442,23 @@
       height: 380px;
     }
   }
-  @media (max-width: 430px) {
+  @media (max-width: 450px) {
     .diva {
-      margin-top: -255%;
+      margin-top: -1080px;
       height: 430px;
     }
   }
   @media (max-width: 415px) {
     .diva {
-      margin-top: -242%;
+      margin-top: -1000px;
       height: 440px;
     }
   }
   @media (max-width: 380px) {
     .diva {
-      margin-top: -242%;
+      margin-top: -930px;
       height: 430px;
       background-color: transparent;
-    }
-  }
-  @media (max-width: 330px) {
-    .diva {
-      margin-top: -277%;
     }
   }
   
@@ -643,7 +645,12 @@
   }
   @media (max-width: 800px) {
     .containeura {
-      margin-top: -400px;
+      margin-top: -380px;
+    }
+  }
+  @media (max-width: 380px) {
+    .containeura {
+      margin-top: -600px;
     }
   }
   #formules {
@@ -715,7 +722,7 @@
     text-align: center;
     background: white;
     text-transform: uppercase;
-    color: rgb(125, 125, 128);
+    color: rgb(31, 30, 30);
     font-size: 20px;
   }
   @media (max-width: 650px) {
@@ -752,7 +759,7 @@
     margin-top: 30px;
     margin-bottom: 300px;
     background: url(https://imgs.search.brave.com/6BOhjm3snWOSLwRvMWZhow_yNwUJsWm9LzW_KUrLIHI/rs:fit:626:417:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS9waG90b3MtZ3Jh/dHVpdGUvdmVsby1j/eWNsaXN0ZS1ob21t/ZS12ZWxvLXZlbG8t/YXRobGV0ZS1yZW1p/c2UtZm9ybWUtc3Bv/cnRzLXZlbG8tcm91/dGUtb3V2ZXJ0ZV8z/MzgzNS00MzEuanBn)
-    rgba(136, 134, 4, 0.432) no-repeat center/cover;
+    rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -818,7 +825,7 @@
     margin-top: 30px;
     margin-bottom: 300px;
     background: url(https://imgs.search.brave.com/7vYr6pogcfC-mzLY96UumZ6h3EACE_DK4LgnIUr6omw/rs:fit:1200:801:1/g:ce/aHR0cHM6Ly9iaWtl/Y2kuY29tL2ZyL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIwLzA5/L2RlYnV0YW50LXZl/bG8tcm91dGUtMTIw/MHg4MDEuanBn)
-    rgba(136, 134, 4, 0.432) no-repeat center/cover;
+    rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -878,7 +885,7 @@
     padding: 8% 4.5% 8% 5%;
     margin-top: 30px;
     margin-bottom: 300px;
-    background: url(https://imgs.search.brave.com/Tn7dmvncbGGMQHo4AucKNms1V9KDle_NQcSw1aGDvsA/rs:fit:1200:1065:1/g:ce/aHR0cHM6Ly9jZG4t/cy13d3cuZXN0cmVw/dWJsaWNhaW4uZnIv/aW1hZ2VzL0ZBODU5/MTU1LUY2MDctNDg4/Qy05QTM4LUMzOUM4/MzEzQjU1Qy9OV19y/YXcvY3ljbGlzbWUt/MWVyZS1lZGl0aW9u/LWRlLWwtaWRqb3Ut/Y3ljbG9zcG9ydGl2/ZS1uZXV2ZXMtbWFp/c29ucy1kaW1hbmNo/ZS0xMy1zZXB0ZW1i/cmUtMjAyMC1waG90/by1lcmljLWR1Ym9p/cy0xNTk5OTk1NDIw/LmpwZw)   rgba(136, 134, 4, 0.432) no-repeat center/cover;
+    background: url(https://imgs.search.brave.com/Tn7dmvncbGGMQHo4AucKNms1V9KDle_NQcSw1aGDvsA/rs:fit:1200:1065:1/g:ce/aHR0cHM6Ly9jZG4t/cy13d3cuZXN0cmVw/dWJsaWNhaW4uZnIv/aW1hZ2VzL0ZBODU5/MTU1LUY2MDctNDg4/Qy05QTM4LUMzOUM4/MzEzQjU1Qy9OV19y/YXcvY3ljbGlzbWUt/MWVyZS1lZGl0aW9u/LWRlLWwtaWRqb3Ut/Y3ljbG9zcG9ydGl2/ZS1uZXV2ZXMtbWFp/c29ucy1kaW1hbmNo/ZS0xMy1zZXB0ZW1i/cmUtMjAyMC1waG90/by1lcmljLWR1Ym9p/cy0xNTk5OTk1NDIw/LmpwZw)   rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -975,7 +982,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/06/medal-2163351_960_720.png)
-      rgba(136, 134, 4, 0.432) no-repeat center/cover;
+      rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1048,7 +1055,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163349_960_720.png)
-    rgba(136, 134, 4, 0.432) no-repeat center/cover;
+    rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1104,7 +1111,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163347_960_720.png)
-    rgba(136, 134, 4, 0.432) no-repeat center/cover;
+    rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1173,7 +1180,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png)
-    rgba(136, 134, 4, 0.432) no-repeat center/cover;
+    rgba(136, 134, 4, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);

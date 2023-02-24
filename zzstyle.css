@@ -147,10 +147,14 @@ body {
     font-size: 17px;
     
 }
- 
+@media (max-width:1200px){
+    .topnav a {
+      padding: 8px 16px 7px 10px;
+    }
+  }
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #a798cf;
+    background-color: #e4ac35;
     color: rgb(8, 8, 8);
     transition: 0.8s;
 }

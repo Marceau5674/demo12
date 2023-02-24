@@ -147,10 +147,14 @@ body {
     font-size: 17px;
     
 }
- 
+@media (max-width:1200px){
+  .topnav a {
+    padding: 8px 16px 7px 10px;
+  }
+}
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #a798cf;
+  background-color: #e4ac35;
     color: rgb(8, 8, 8);
     transition: 0.8s;
 }
@@ -201,7 +205,7 @@ body {
 .diva{
     padding: 90px 30px 50px 30px;
     text-decoration: none;
-    background: url(https://zupimages.net/up/23/07/ekjp.jpg) rgb(198, 207, 207) center/cover;
+    background: url(https://zupimages.net/up/23/08/k5ri.jpg) rgb(252, 253, 253) center/cover;
     background-blend-mode: multiply;
     height: 450px;
 }
@@ -249,74 +253,116 @@ h1{
     list-style-type: none;
     color: white;
 }
-.logoo{
-    position: static;
-    top: 70px;
-    margin-left: 0;
-    display: inline-block;
-    vertical-align: middle;
-    background: url(./asset/logo.gif) no-repeat 0 0;
-    width: 129px;
-    height: 102px;
-    font-size: 0;
-    line-height: 0;
-}
 
 .logo{
     position: repeat center/cover;
     width: 100%;
 }
-.rib{
-  width: 33%;
-   font-size: 20px;
-     line-height: 1.25;
-     text-align: center;
-     position: static;
-     padding: 15px;
-     background-color: #7e7a7a;
-     border-radius: 4px;
-     border: 2px solid rgb(255, 247, 247);
-     color: rgb(3, 0, 0);
-     text-transform: uppercase;
-     margin: 280px 0 0  0 ;
-}
-.band{
-  height: 170px;
-  width: 100%;
-  background-color: #000000;
-  
-  margin-top: 0px;
-}
-.logooo {
-  margin-left: 20%;
-  display: inline-block;
-  vertical-align: middle;
-  width: 220px;
-  height: 180px;
-  font-size: 0;
-  margin-top: 30px;
-  line-height: 0;
-  border-radius: 10px;
-}
+
+
+
+
+
+
+
 .ddr{
    
   margin: 40px;
   text-decoration: none;
+
+ }
+ .band{
+   height: 170px;
+   width: 100%;
+   background-color: #000000;
+   
+   margin-top: 0px;
  }
  .ddrty {
    width: 40px; /* remplacez 40px par la largeur souhaitée pour votre logo */
    height: 40px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
    border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
  }
+ @media (max-width:450px){
+   .ddrty {
+     width: 0px; /* remplacez 40px par la largeur souhaitée pour votre logo */
+     height: 0px; /* remplacez 40px par la hauteur souhaitée pour votre logo */
+     border-radius: 20px; /* moitié de la largeur/hauteur pour avoir un rond */
+   }
+ }
 .w{
  margin-top: -120px;
  
 padding-left: 45%;
 }
-.tem{
-    margin-left: 15%;
-    margin-top: 30px;
+@media (max-width: 800px){
+ .ddr{
+  
+   margin: 30px;
+   text-decoration: none;
+
+  }
+}
+ 
+ 
+ .logooo {
+   margin-left: 20%;
+   display: inline-block;
+   vertical-align: middle;
+   width: 220px;
+   height: 180px;
+   font-size: 0;
+   margin-top: 30px;
+   line-height: 0;
+   border-radius: 10px;
+ }
+ 
+@media (max-width: 800px){
+ .logooo{
+   margin-left: 13%;
+ }
+}
+@media (max-width: 450px){
+ .logooo{
+   margin-left: 23%;
+ }
+}
+.rib{
+ width: 33%;
+  font-size: 20px;
+    line-height: 1.25;
+    text-align: center;
+    position: static;
+    padding: 15px;
+    background-color: #7e7a7a;
+    border-radius: 4px;
+    border: 2px solid rgb(255, 247, 247);
+    color: rgb(3, 0, 0);
+    text-transform: uppercase;
+    margin: 280px 0 0  0 ;
     
+}
+@media (max-width:1025px){
+  .rib{
+    margin: -100px 0 0  0 ;
+  }
+}
+@media (max-width:450px){
+ .rib{
+   width: 90%;
+   margin: -50px  0 0  0 ;
+ }
+}
+@media (max-width:450px){
+ .rib{
+   width: 90%;
+   margin: -50px  0 0  0 ;
+ }
+}
+.tem{
+  margin-left: 15%;
+  margin-top: 30px;
+  
 }
 .img{
     
