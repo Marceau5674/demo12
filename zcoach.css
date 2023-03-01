@@ -214,8 +214,16 @@ body {
         padding: 90px 30px 50px 30px;
         text-decoration: none;
         background-blend-mode: multiply;
-        height: 600px;
+        height: 400px;
     }
+}
+@media (max-width: 450px){
+  .diva{
+      padding: 90px 30px 50px 30px;
+      text-decoration: none;
+      background-blend-mode: multiply;
+      height: 400px;
+  }
 }
 h1{
     
@@ -327,6 +335,12 @@ padding-left: 45%;
    margin-left: 23%;
  }
 }
+
+@media (max-width: 360px){
+  .logooo{
+    margin-left: 15%;
+  }
+}
 .rib{
  width: 33%;
   font-size: 20px;
@@ -344,21 +358,16 @@ padding-left: 45%;
 }
 @media (max-width:1025px){
   .rib{
-    margin: -100px 0 0  0 ;
+    margin: 300px 0 0  20px ;
   }
 }
 @media (max-width:450px){
  .rib{
    width: 90%;
-   margin: -50px  0 0  0 ;
+   margin: 320px  0 0  0 ;
  }
 }
-@media (max-width:450px){
- .rib{
-   width: 90%;
-   margin: -50px  0 0  0 ;
- }
-}
+
 .tem{
   margin-left: 15%;
   margin-top: 30px;

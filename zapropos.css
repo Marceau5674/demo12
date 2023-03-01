@@ -155,7 +155,7 @@ body {
  
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #a798cf;
+    background-color: #e4ac35;
     color: rgb(8, 8, 8);
     transition: 0.8s;
 }
