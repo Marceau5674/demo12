@@ -753,7 +753,7 @@
     display: flex;
     justify-content: space-around;
     padding-inline-start: 0px;
-    background-color: #e4ac35;
+    background-color: #8f875a;
     width: 100%;
     height: 280px;
   }
@@ -766,7 +766,7 @@
     margin-top: 30px;
     margin-bottom: 300px;
     background: url(https://imgs.search.brave.com/6BOhjm3snWOSLwRvMWZhow_yNwUJsWm9LzW_KUrLIHI/rs:fit:626:417:1/g:ce/aHR0cHM6Ly9pbWFn/ZS5mcmVlcGlrLmNv/bS9waG90b3MtZ3Jh/dHVpdGUvdmVsby1j/eWNsaXN0ZS1ob21t/ZS12ZWxvLXZlbG8t/YXRobGV0ZS1yZW1p/c2UtZm9ybWUtc3Bv/cnRzLXZlbG8tcm91/dGUtb3V2ZXJ0ZV8z/MzgzNS00MzEuanBn)
-    rgba(136, 134, 4, 0.212) no-repeat center/cover;
+    rgba(190, 190, 185, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -832,7 +832,7 @@
     margin-top: 30px;
     margin-bottom: 300px;
     background: url(https://imgs.search.brave.com/7vYr6pogcfC-mzLY96UumZ6h3EACE_DK4LgnIUr6omw/rs:fit:1200:801:1/g:ce/aHR0cHM6Ly9iaWtl/Y2kuY29tL2ZyL3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIwLzA5/L2RlYnV0YW50LXZl/bG8tcm91dGUtMTIw/MHg4MDEuanBn)
-    rgba(136, 134, 4, 0.212) no-repeat center/cover;
+    rgba(7, 7, 7, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -892,7 +892,8 @@
     padding: 8% 4.5% 8% 5%;
     margin-top: 30px;
     margin-bottom: 300px;
-    background: url(https://imgs.search.brave.com/Tn7dmvncbGGMQHo4AucKNms1V9KDle_NQcSw1aGDvsA/rs:fit:1200:1065:1/g:ce/aHR0cHM6Ly9jZG4t/cy13d3cuZXN0cmVw/dWJsaWNhaW4uZnIv/aW1hZ2VzL0ZBODU5/MTU1LUY2MDctNDg4/Qy05QTM4LUMzOUM4/MzEzQjU1Qy9OV19y/YXcvY3ljbGlzbWUt/MWVyZS1lZGl0aW9u/LWRlLWwtaWRqb3Ut/Y3ljbG9zcG9ydGl2/ZS1uZXV2ZXMtbWFp/c29ucy1kaW1hbmNo/ZS0xMy1zZXB0ZW1i/cmUtMjAyMC1waG90/by1lcmljLWR1Ym9p/cy0xNTk5OTk1NDIw/LmpwZw)   rgba(136, 134, 4, 0.212) no-repeat center/cover;
+    background: url(https://imgs.search.brave.com/Tn7dmvncbGGMQHo4AucKNms1V9KDle_NQcSw1aGDvsA/rs:fit:1200:1065:1/g:ce/aHR0cHM6Ly9jZG4t/cy13d3cuZXN0cmVw/dWJsaWNhaW4uZnIv/aW1hZ2VzL0ZBODU5/MTU1LUY2MDctNDg4/Qy05QTM4LUMzOUM4/MzEzQjU1Qy9OV19y/YXcvY3ljbGlzbWUt/MWVyZS1lZGl0aW9u/LWRlLWwtaWRqb3Ut/Y3ljbG9zcG9ydGl2/ZS1uZXV2ZXMtbWFp/c29ucy1kaW1hbmNo/ZS0xMy1zZXB0ZW1i/cmUtMjAyMC1waG90/by1lcmljLWR1Ym9p/cy0xNTk5OTk1NDIw/LmpwZw) 
+      rgba(250, 249, 248, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -976,7 +977,7 @@
     display: flex;
     justify-content: space-around;
     padding-inline-start: 0px;
-    background-color: #e4ac35;
+    background-color: #000000;
     width: 100%;
     height: 280px;
   }
@@ -989,7 +990,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/06/medal-2163351_960_720.png)
-      rgba(136, 134, 4, 0.212) no-repeat center/cover;
+      rgba(255, 255, 253, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1062,7 +1063,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163349_960_720.png)
-    rgba(136, 134, 4, 0.212) no-repeat center/cover;
+    rgba(90, 90, 89, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1118,7 +1119,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2017/03/21/21/05/medal-2163347_960_720.png)
-    rgba(136, 134, 4, 0.212) no-repeat center/cover;
+    rgba(8, 8, 8, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
@@ -1187,7 +1188,7 @@
     margin-top: 30px;
     margin-bottom: 500px;
     background: url(https://cdn.pixabay.com/photo/2013/07/13/11/35/diamond-158431_960_720.png)
-    rgba(136, 134, 4, 0.212) no-repeat center/cover;
+    rgba(255, 255, 255, 0.212) no-repeat center/cover;
     background-blend-mode: multiply;
     border: 1px solid rgb(252, 250, 250);
     box-shadow: 0px 5px 50px 10px rgba(8, 8, 8, 0.658);
